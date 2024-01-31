@@ -1,6 +1,6 @@
 import { sign, verify } from 'jsonwebtoken';
 import { config } from '@config';
-import { CredentialsRefreshToken, DecodedToken } from '@interfaces';
+import { DecodedToken } from '@interfaces';
 
 export const generateToken = async (id: string): Promise<string> => {
   const payload = {
