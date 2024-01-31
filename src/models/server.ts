@@ -37,7 +37,7 @@ export class Server {
 
   routes(): void {
     this.app.use(this.rootPath, (_req, res) => {
-      res.send('hello world!');
+      res.send('AuditSmart API v1.0.0 - Home Page');
     });
   }
 
