@@ -1,1 +1,1 @@
-<h1 align="center">New API AuditSmart</h1>
+<h1 align="center">Starter Template</h1>
